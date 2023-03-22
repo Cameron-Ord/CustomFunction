@@ -7,19 +7,13 @@ function generic_greeting(){
 
 generic_greeting();
 
-function specific_greeting(){
+function specific_greeting(user){
 
-    let user = `cameron`;
-
-    if(user == `cameron`){
-
-        console.log(`specific greeting`)
+        console.log(`welcome to the site ${user}`);
     }
 
 
 
-}
-
-specific_greeting();
+specific_greeting(`cameron`);
 
 
