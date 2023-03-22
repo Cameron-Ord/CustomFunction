@@ -37,3 +37,14 @@ function filter_winning_users(user_array) {
 let first_winner = filter_winning_users([`loser`, `almost`, `best_winner_user`]);
 
 
+function find_specific_greeting(users, search_user) {
+    for (let counter = 0; counter < users.length; counter++) {
+        if (users[counter] === `_Admin`) {
+            return true;
+        }
+    }
+    return false;
+}
+
+let = contains_admin = find_specific_greeting([`Jim`, `Alan`, `User_Admin`], `what?`);
+let = does_not_contain_admin = find_specific_greeting([`Jim`, `Alan`, `User_Super`], `what?`);
