@@ -15,5 +15,8 @@ function specific_greeting(user){
 
 
 specific_greeting(`cameron`);
-
-
+specific_greeting(`josh`);
+specific_greeting(`alex`);
+specific_greeting(`bruce`);
+specific_greeting(`bowser`);
+specific_greeting(`ronald`);
